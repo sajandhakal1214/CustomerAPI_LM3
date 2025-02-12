@@ -1,7 +1,7 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_Tests\\CustomerAPI_Tests.csproj": {}
+    "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_tests\\CustomerAPI_Tests.csproj": {}
   },
   "projects": {
     "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_LM3\\CustomerAPI_LM3.csproj": {
@@ -75,14 +75,14 @@
         }
       }
     },
-    "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_Tests\\CustomerAPI_Tests.csproj": {
+    "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_tests\\CustomerAPI_Tests.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_Tests\\CustomerAPI_Tests.csproj",
+        "projectUniqueName": "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_tests\\CustomerAPI_Tests.csproj",
         "projectName": "CustomerAPI_Tests",
-        "projectPath": "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_Tests\\CustomerAPI_Tests.csproj",
+        "projectPath": "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_tests\\CustomerAPI_Tests.csproj",
         "packagesPath": "C:\\Users\\sajan.dhakal\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_Tests\\obj\\",
+        "outputPath": "C:\\Users\\sajan.dhakal\\source\\repos\\CustomerAPI_LM3\\CustomerAPI_tests\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\sajan.dhakal\\AppData\\Roaming\\NuGet\\NuGet.Config"
@@ -127,8 +127,10 @@
               "version": "[4.20.72, )"
             },
             "coverlet.collector": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[6.0.0, )"
+              "version": "[6.0.4, )"
             },
             "xunit": {
               "target": "Package",
